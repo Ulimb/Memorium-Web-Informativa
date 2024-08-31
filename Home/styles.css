@@ -68,16 +68,65 @@ h1{
     }
 
     .card {
-        margin-bottom: 1%; 
+        margin-bottom: 1%;
+        font-size: 1rem;
     }
 
     .intro-img{
-        align-items: end;
+        display: flex;
+        align-items: stretch;
         justify-content: end;
     }
+    
     /* Seccion 1 */
     .container-seccion1{
         height: 500px;
     }
 
 
+@media (max-width: 768px) {
+    .intro-img {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+    }
+    
+    .col-8 {
+        flex: 0 0 100%; /* La "card-body" ocupará todo el ancho disponible */
+        max-width: 100%;
+    }
+}
+
+/* Media query para dispositivos grandes (a partir de 992px de ancho) */
+@media (min-width: 992px) {
+    .card-body {
+        font-size: 1.25rem; /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.5; /* Mejora la legibilidad ajustando el interlineado */
+    }
+}
+
+@media (min-width: 1222px) {
+    .card-body {
+        font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+    }
+}
+
+@media (min-width: 1452px) {
+    .card-body {
+        font-size: 1.75rem; /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+    }
+}
+
+@media (min-width: 1452px) {
+    .card-body {
+        font-size: 1.75rem; /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+    }
+}
+
+@media (min-width: 1682px) {
+    .card-body {
+        font-size: 2rem; /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+    }
+}
