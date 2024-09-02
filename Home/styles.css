@@ -8,17 +8,28 @@
 /* Estilos generales */
 .seccion-oscura {
     color: white;
-    background-color: black;
+    background-color: #000000;
+}
+
+.seccion-gris-oscura {
+    color: white;
+    background-color: #0f0f0f;
+}
+
+.seccion-gris-clara {
+    color: #1b1b32;
+    background-color: #AAAAAA;
 }
 
 .seccion-clara {
     color: #1b1b32;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 h1{
     font-size: 2.5rem;
     /* font-family: 'Rubik Dirt', system-ui; */
+    margin: 0;
 }
 
 .seccion-titulo {
@@ -39,7 +50,6 @@ h1{
 .texto-blanco {
     color: white;
 }
-
 
 /* Inicio */
 
@@ -68,7 +78,8 @@ h1{
     }
 
     .card {
-        margin-bottom: 1%;
+        margin-bottom: 2%;
+        margin-top: 2%;
         font-size: 1rem;
     }
 
@@ -80,9 +91,178 @@ h1{
     
     /* Seccion 1 */
     .container-seccion1{
-        height: 500px;
+        padding: 4%;
+        margin: 0; /* Elimina cualquier margen adicional */
     }
 
+    .seccion-1-img{
+        display: flex;
+        align-items: stretch;  
+    }
+
+
+    /* Seccion 2 */
+    .container-seccion2{
+        height: 500px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    /* Seccion 3 */
+    .container-seccion3{
+        padding: 40px 40px 60px 40px;
+    }
+
+    .container-seccion3 .columna {
+        padding: 20px;
+        border: 2px solid #8080804d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.15s ease-in;
+    }
+
+    .container-seccion3 .columna:hover {
+        color: white;
+        background-color: #1b1b32;
+    }
+
+    .container-seccion3 i {
+        font-size: 2.5rem;
+        color: #7ade30;
+        background-color: #0a0a23;
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+
+    .container-seccion3-titulo {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .badges-contenedor{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .badge {
+        margin: 5px;
+    }
+
+
+    /* Seccion 4 */
+    .fondo2 {
+        /* // background-color: rgb(0,0,0); */
+        background-image: url('images/PersonasEntrenandPrueba.jpeg');
+        background-size: cover;
+        /* Cubre todo el área disponible */
+        background-position: center;
+        /* Centra la imagen de fondo */
+        height: 400px;
+    }
+
+    .fondo3 {
+        background-color: #9ebae4;
+        height: 450px;
+        margin: 2%;
+        border-radius: 2.5%;
+    }
+
+    @media screen and (max-width: 1235px) {
+        .texto-ing-sis p {
+            font-size: 0.93rem;
+        }
+    }
+
+    @media screen and (max-width: 1060px) {
+        .texto-ing-sis p {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: 1235px) {
+        .texto-ing-sis p {
+            font-size: 0.93rem;
+        }
+    }
+
+    @media screen and (max-width: 1060px) {
+        .texto-ing-sis p {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: 396px) {
+        .texto-ing-sis p {
+            font-size: 0.82rem;
+        }
+    }
+
+    @media screen and (max-width: 355px) {
+        .second-text-sis {
+          display: none;
+        }
+    }
+
+    .fondo6 {
+        /* // background-color: rgb(0,0,0); */
+        background-image: url('images/carruselprueba3.jpg');
+        background-size: cover;
+        /* Cubre todo el área disponible */
+        background-position: center;
+        /* Centra la imagen de fondo */
+        height: 400px;
+    }
+
+    /* Footer  */
+    #footer-contacto-left, #footer-contacto-right {
+        background-color: #1b1b32; /* Color de fondo del footer */
+        color: #ffffff; /* Color del texto */
+        padding: 20px; /* Espaciado interno */
+    }
+
+    #footer-contacto-left h5, #footer-contacto-right h5 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    #footer-contacto-left p, #footer-contacto-right p {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    #footer-contacto-left a, #footer-contacto-right a {
+        color: #ffffff; /* Color de los enlaces */
+        text-decoration: none; /* Sin subrayado */
+    }
+
+    #footer-contacto-left a:hover, #footer-contacto-right a:hover {
+        color: #aaaaaa; /* Color de los enlaces al pasar el ratón */
+        text-decoration: underline; /* Subrayado al pasar el ratón */
+    }
+
+    #footer-contacto-left hr, #footer-contacto-right hr {
+        border-color: #ffffff; /* Color de las líneas */
+        margin: 10px 0;
+    }
+
+    #footer-contacto-right .fa-brands {
+        color: #ffffff; /* Color de los iconos de redes sociales */
+        transition: color 0.3s; /* Transición suave al cambiar el color */
+    }
+
+    #footer-contacto-right .fa-brands:hover {
+        color: #aaaaaa; /* Color de los iconos al pasar el ratón */
+    }
+
+    #footer-contacto-right p img {
+        margin-right: 10px; /* Margen derecho de las imágenes */
+        vertical-align: middle; /* Alineación vertical de las imágenes */
+    }
 
 @media (max-width: 768px) {
     .intro-img {
