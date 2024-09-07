@@ -1,11 +1,5 @@
-/* Reset de márgenes y padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Estilos generales */
+
 .seccion-oscura {
     color: white;
     background-color: #000000;
@@ -28,7 +22,7 @@
 
 h1{
     font-size: 2.5rem;
-    /* font-family: 'Rubik Dirt', system-ui; */
+    font-family: 'Rubik Dirt', system-ui;
     margin: 0;
 }
 
@@ -38,18 +32,18 @@ h1{
     /* font-family:'Rubik Dirt', system-ui; */
 }
 
-.seccion-descripcion {
+/* .seccion-descripcion {
     font-size: 1.2rem;
     color: #584e4e;
-}
+} */
 
-.texto-negro {
+/* .texto-negro {
     color: black;
-}
+} */
 
-.texto-blanco {
+/* .texto-blanco {
     color: white;
-}
+} */
 
 /* Inicio */
 
@@ -66,47 +60,45 @@ h1{
 
     .inicio-img {
         width: 100%;        /* Hace que la imagen ocupe todo el ancho del contenedor. */
-        max-width: 100%;    /* Asegura que la imagen no se expanda más allá de su tamaño original. */
-        height: auto;       /* La altura de la imagen se ajusta automáticamente para mantener su proporción. */
         object-fit: cover;  /* Hace que la imagen cubra todo el área del contenedor, recortando los bordes si es necesario para mantener las proporciones. */
     }
 
     /* seccion introduccion */
     .container-intro{
-        padding-left: 2%;
-        padding-right: 2%;
+        padding: 40px 40px 0px 40px;
     }
 
-    .card {
+    .container-home{
+        padding: 40px 40px 60px 40px;
+    }
+    
+    
+    /* .card {
         margin-bottom: 2%;
         margin-top: 2%;
         font-size: 1rem;
-    }
+    } */
 
     .intro-img{
         display: flex;
-        align-items: stretch;
-        justify-content: end;
     }
     
     /* Seccion 1 */
-    .container-seccion1{
-        padding: 4%;
-        margin: 0; /* Elimina cualquier margen adicional */
-    }
+    /* .container-seccion1{
+        height: auto;
+        padding: 40px 40px 60px 40px;
+    } */
 
     .seccion-1-img{
-        display: flex;
-        align-items: stretch;  
+        display: flex; 
     }
 
 
     /* Seccion 2 */
-    .container-seccion2{
-        height: 500px;
-        padding-left: 2%;
-        padding-right: 2%;
-    }
+    /* .container-seccion2{
+        height: auto;
+        padding: 40px 40px 60px 40px;
+    } */
 
     /* Seccion 3 */
     .container-seccion3{
@@ -154,22 +146,31 @@ h1{
 
 
     /* Seccion 4 */
-    .fondo2 {
-        /* // background-color: rgb(0,0,0); */
+    .card-fondo1 {
         background-image: url('images/PersonasEntrenandPrueba.jpeg');
         background-size: cover;
-        /* Cubre todo el área disponible */
         background-position: center;
-        /* Centra la imagen de fondo */
         height: 400px;
     }
 
-    .fondo3 {
+    .card-fondo2 {
+        background-image: url('images/carruselprueba3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+
+    .card-texto {
         background-color: #9ebae4;
         height: 450px;
         margin: 2%;
         border-radius: 2.5%;
     }
+
+    /* Seccion 5 */ 
+    .container-seccion5{
+        padding: 20px 20px 30px 20px;
+    }   
 
     @media screen and (max-width: 1235px) {
         .texto-ing-sis p {
@@ -205,16 +206,6 @@ h1{
         .second-text-sis {
           display: none;
         }
-    }
-
-    .fondo6 {
-        /* // background-color: rgb(0,0,0); */
-        background-image: url('images/carruselprueba3.jpg');
-        background-size: cover;
-        /* Cubre todo el área disponible */
-        background-position: center;
-        /* Centra la imagen de fondo */
-        height: 400px;
     }
 
     /* Footer  */
