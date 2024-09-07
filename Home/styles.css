@@ -1,24 +1,29 @@
-/* Reset de márgenes y padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Estilos generales */
+
 .seccion-oscura {
     color: white;
-    background-color: black;
+    background-color: #000000;
+}
+
+.seccion-gris-oscura {
+    color: white;
+    background-color: #0f0f0f;
+}
+
+.seccion-gris-clara {
+    color: #1b1b32;
+    background-color: #AAAAAA;
 }
 
 .seccion-clara {
     color: #1b1b32;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 h1{
     font-size: 2.5rem;
-    /* font-family: 'Rubik Dirt', system-ui; */
+    font-family: 'Rubik Dirt', system-ui;
+    margin: 0;
 }
 
 .seccion-titulo {
@@ -27,19 +32,18 @@ h1{
     /* font-family:'Rubik Dirt', system-ui; */
 }
 
-.seccion-descripcion {
+/* .seccion-descripcion {
     font-size: 1.2rem;
     color: #584e4e;
-}
+} */
 
-.texto-negro {
+/* .texto-negro {
     color: black;
-}
+} */
 
-.texto-blanco {
+/* .texto-blanco {
     color: white;
-}
-
+} */
 
 /* Inicio */
 
@@ -56,33 +60,200 @@ h1{
 
     .inicio-img {
         width: 100%;        /* Hace que la imagen ocupe todo el ancho del contenedor. */
-        max-width: 100%;    /* Asegura que la imagen no se expanda más allá de su tamaño original. */
-        height: auto;       /* La altura de la imagen se ajusta automáticamente para mantener su proporción. */
         object-fit: cover;  /* Hace que la imagen cubra todo el área del contenedor, recortando los bordes si es necesario para mantener las proporciones. */
     }
 
     /* seccion introduccion */
     .container-intro{
-        padding-left: 2%;
-        padding-right: 2%;
+        padding: 40px 40px 0px 40px;
     }
 
-    .card {
-        margin-bottom: 1%;
-        font-size: 1rem;
+    .container-home{
+        padding: 40px 40px 60px 40px;
     }
+    
+    
+    /* .card {
+        margin-bottom: 2%;
+        margin-top: 2%;
+        font-size: 1rem;
+    } */
 
     .intro-img{
         display: flex;
-        align-items: stretch;
-        justify-content: end;
     }
     
     /* Seccion 1 */
-    .container-seccion1{
-        height: 500px;
+    /* .container-seccion1{
+        height: auto;
+        padding: 40px 40px 60px 40px;
+    } */
+
+    .seccion-1-img{
+        display: flex; 
     }
 
+
+    /* Seccion 2 */
+    /* .container-seccion2{
+        height: auto;
+        padding: 40px 40px 60px 40px;
+    } */
+
+    /* Seccion 3 */
+    .container-seccion3{
+        padding: 40px 40px 60px 40px;
+    }
+
+    .container-seccion3 .columna {
+        padding: 20px;
+        border: 2px solid #8080804d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: all 0.15s ease-in;
+    }
+
+    .container-seccion3 .columna:hover {
+        color: white;
+        background-color: #1b1b32;
+    }
+
+    .container-seccion3 i {
+        font-size: 2.5rem;
+        color: #7ade30;
+        background-color: #0a0a23;
+        padding: 8px 19px;
+        border-radius: 50%;
+    }
+
+    .container-seccion3-titulo {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .badges-contenedor{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .badge {
+        margin: 5px;
+    }
+
+
+    /* Seccion 4 */
+    .card-fondo1 {
+        background-image: url('images/PersonasEntrenandPrueba.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+
+    .card-fondo2 {
+        background-image: url('images/carruselprueba3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+
+    .card-texto {
+        background-color: #9ebae4;
+        height: 450px;
+        margin: 2%;
+        border-radius: 2.5%;
+    }
+
+    /* Seccion 5 */ 
+    .container-seccion5{
+        padding: 20px 20px 30px 20px;
+    }   
+
+    @media screen and (max-width: 1235px) {
+        .texto-ing-sis p {
+            font-size: 0.93rem;
+        }
+    }
+
+    @media screen and (max-width: 1060px) {
+        .texto-ing-sis p {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: 1235px) {
+        .texto-ing-sis p {
+            font-size: 0.93rem;
+        }
+    }
+
+    @media screen and (max-width: 1060px) {
+        .texto-ing-sis p {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media screen and (max-width: 396px) {
+        .texto-ing-sis p {
+            font-size: 0.82rem;
+        }
+    }
+
+    @media screen and (max-width: 355px) {
+        .second-text-sis {
+          display: none;
+        }
+    }
+
+    /* Footer  */
+    #footer-contacto-left, #footer-contacto-right {
+        background-color: #1b1b32; /* Color de fondo del footer */
+        color: #ffffff; /* Color del texto */
+        padding: 20px; /* Espaciado interno */
+    }
+
+    #footer-contacto-left h5, #footer-contacto-right h5 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    #footer-contacto-left p, #footer-contacto-right p {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+
+    #footer-contacto-left a, #footer-contacto-right a {
+        color: #ffffff; /* Color de los enlaces */
+        text-decoration: none; /* Sin subrayado */
+    }
+
+    #footer-contacto-left a:hover, #footer-contacto-right a:hover {
+        color: #aaaaaa; /* Color de los enlaces al pasar el ratón */
+        text-decoration: underline; /* Subrayado al pasar el ratón */
+    }
+
+    #footer-contacto-left hr, #footer-contacto-right hr {
+        border-color: #ffffff; /* Color de las líneas */
+        margin: 10px 0;
+    }
+
+    #footer-contacto-right .fa-brands {
+        color: #ffffff; /* Color de los iconos de redes sociales */
+        transition: color 0.3s; /* Transición suave al cambiar el color */
+    }
+
+    #footer-contacto-right .fa-brands:hover {
+        color: #aaaaaa; /* Color de los iconos al pasar el ratón */
+    }
+
+    #footer-contacto-right p img {
+        margin-right: 10px; /* Margen derecho de las imágenes */
+        vertical-align: middle; /* Alineación vertical de las imágenes */
+    }
 
 @media (max-width: 768px) {
     .intro-img {
