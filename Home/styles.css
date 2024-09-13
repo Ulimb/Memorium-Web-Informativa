@@ -301,3 +301,10 @@ h1{
         line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
     }
 }
+
+/* seccion 4 */
+
+.card-w{
+    width: 150px; 
+    height: 150px;
+}
