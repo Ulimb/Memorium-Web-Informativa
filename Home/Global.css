@@ -29,7 +29,7 @@ h1{
 .seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
-    /* font-family:'Rubik Dirt', system-ui; */
+    font-family:'Rubik Dirt', system-ui; 
 }
 
 /* .seccion-descripcion {

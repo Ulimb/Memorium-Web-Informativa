@@ -1,23 +1,5 @@
 /* Inicio */
 
-/* Imagen de Portada */
-.container-inicio-img {
-    display: flex;              /* Aplica el modelo de caja flexible a container, permitiendo centrar el contenido fácilmente. */
-    justify-content: center;    /* Centra el contenido horizontalmente dentro del contenedor. */
-    align-items: stretch;       /* Centra el contenido verticalmente dentro del contenedor. */
-    overflow: hidden;           /* Oculta cualquier parte de la imagen que se desborde del contenedor. */
-    width: 100%;                /* Hace que el contenedor ocupe todo el ancho disponible de su contenedor padre. */
-    height: 500px;              /* Establece la altura fija del contenedor. Puedes ajustar esta altura según tus necesidades. */
-    padding: 0%;
-}
-
-.inicio-img {
-    width: 100%;                /* Hace que la imagen ocupe todo el ancho del contenedor. */
-    object-fit: cover;          /* Hace que la imagen cubra todo el área del contenedor, recortando los bordes si es necesario para mantener las proporciones. */
-}
-
-/* FIN */
-
 /* seccion Hero */
 
 .intro-img {
@@ -111,7 +93,7 @@
 
 /* <!-- Seccion - Beneficios - Accesibilidad e Inclusión --> */
 .card-texto {
-    background-color: #9ebae4;
+    /* background-color: #9ebae4; */
     height: 450px;
     margin: 2%;
     border-radius: 2.5%;
