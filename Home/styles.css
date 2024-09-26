@@ -131,7 +131,7 @@ h1{
 
     /* <!-- Seccion Beneficios --> */
     .card-fondo1 {
-        background-image: url('images/PersonasEntrenandPrueba.jpeg');
+        background-image: url('images/imagenInicial/carruselprueba3.jpg');
         background-size: cover;
         background-position: center;
         height: 400px;
@@ -140,7 +140,7 @@ h1{
 
     /* <!-- Seccion Accesibilidad e Inclusión --> */
     .card-fondo2 {
-        background-image: url('images/carruselprueba3.jpg');
+        background-image: url('images/imagenInicial/carruselprueba3.jpg');
         background-size: cover;
         background-position: center;
         height: 400px;
@@ -234,9 +234,3 @@ h1{
     }
 }
 
-/* seccion 4 */
-
-.card-w{
-    width: 150px; 
-    height: 150px;
-}
