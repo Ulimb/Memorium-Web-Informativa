@@ -14,12 +14,7 @@
 
 /* FIN */
 
-/* Seccion - app-movil - app-profesional */
-.seccion-1-img {
-    display: flex;
-}
 
-/* FIN */
 
 /* <!-- Seccion - Quiénes Somos - Vision, mision, objetivos - Contacto y Soporte --> */
 .container-seccion3 {
@@ -100,37 +95,37 @@
 }
 
 @media screen and (max-width: 1235px) {
-    .texto-ing-sis p {
+    .texto-card p {
         font-size: 0.93rem;
     }
 }
 
 @media screen and (max-width: 1060px) {
-    .texto-ing-sis p {
+    .texto-card p {
         font-size: 0.9rem;
     }
 }
 
 @media screen and (max-width: 1235px) {
-    .texto-ing-sis p {
+    .texto-card p {
         font-size: 0.93rem;
     }
 }
 
 @media screen and (max-width: 1060px) {
-    .texto-ing-sis p {
+    .texto-card p {
         font-size: 0.9rem;
     }
 }
 
 @media screen and (max-width: 396px) {
-    .texto-ing-sis p {
+    .texto-card p {
         font-size: 0.82rem;
     }
 }
 
 @media screen and (max-width: 355px) {
-    .second-text-sis {
+    .second-text-caed {
         display: none;
     }
 }
@@ -138,8 +133,7 @@
 /* FIN */
 
 
-
-/* Media query para dispositivos grandes (a partir de 992px de ancho) */
+/* Media query para Cards */
 @media (min-width: 992px) {
     .card-body {
         font-size: 1.25rem;         /* Ajusta el tamaño del texto para pantallas grandes */
