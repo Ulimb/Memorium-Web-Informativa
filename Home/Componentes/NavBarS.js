@@ -1,6 +1,8 @@
-const rutaNavBar = './Componentes/NavBar.html';  // Ruta del navbar
+// const rutaNavBar = './Componentes/NavBar.html';  
+// const rutaFooter = './Componentes/Footer.html';
 
-const rutaFooter = './Componentes/Footer.html';
+const rutaNavBar = '/Home/Componentes/NavBar.html';  
+const rutaFooter = '/Home/Componentes/Footer.html';
 
 document.addEventListener('DOMContentLoaded', () => {
     cargarComponente('navbar-reutilizable', rutaNavBar); // Cargar navbar

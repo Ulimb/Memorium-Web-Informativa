@@ -1,236 +1,194 @@
-/* Estilos generales */
-
-.seccion-oscura {
-    color: white;
-    background-color: #000000;
-}
-
-.seccion-gris-oscura {
-    color: white;
-    background-color: #0f0f0f;
-}
-
-.seccion-gris-clara {
-    color: #1b1b32;
-    background-color: #AAAAAA;
-}
-
-.seccion-clara {
-    color: #1b1b32;
-    background-color: #FFFFFF;
-}
-
-h1{
-    font-size: 2.5rem;
-    font-family: 'Rubik Dirt', system-ui;
-    margin: 0;
-}
-
-.seccion-titulo {
-    font-size: 2rem;
-    padding: 15px 0;
-    /* font-family:'Rubik Dirt', system-ui; */
-}
-
-/* .seccion-descripcion {
-    font-size: 1.2rem;
-    color: #584e4e;
-} */
-
-/* .texto-negro {
-    color: black;
-} */
-
-/* .texto-blanco {
-    color: white;
-} */
-
 /* Inicio */
 
-    /* Imagen de Portada */
-    .container-inicio-img {
-        display: flex;              /* Aplica el modelo de caja flexible a container, permitiendo centrar el contenido fácilmente. */
-        justify-content: center;    /* Centra el contenido horizontalmente dentro del contenedor. */
-        align-items: stretch;        /* Centra el contenido verticalmente dentro del contenedor. */
-        overflow: hidden;           /* Oculta cualquier parte de la imagen que se desborde del contenedor. */
-        width: 100%;                /* Hace que el contenedor ocupe todo el ancho disponible de su contenedor padre. */
-        height: 500px;              /* Establece la altura fija del contenedor. Puedes ajustar esta altura según tus necesidades. */
-        padding: 0%;                
-    }
+/* Imagen de Portada */
+.container-inicio-img {
+    display: flex;              /* Aplica el modelo de caja flexible a container, permitiendo centrar el contenido fácilmente. */
+    justify-content: center;    /* Centra el contenido horizontalmente dentro del contenedor. */
+    align-items: stretch;       /* Centra el contenido verticalmente dentro del contenedor. */
+    overflow: hidden;           /* Oculta cualquier parte de la imagen que se desborde del contenedor. */
+    width: 100%;                /* Hace que el contenedor ocupe todo el ancho disponible de su contenedor padre. */
+    height: 500px;              /* Establece la altura fija del contenedor. Puedes ajustar esta altura según tus necesidades. */
+    padding: 0%;
+}
 
-    .inicio-img {
-        width: 100%;        /* Hace que la imagen ocupe todo el ancho del contenedor. */
-        object-fit: cover;  /* Hace que la imagen cubra todo el área del contenedor, recortando los bordes si es necesario para mantener las proporciones. */
-    }
+.inicio-img {
+    width: 100%;                /* Hace que la imagen ocupe todo el ancho del contenedor. */
+    object-fit: cover;          /* Hace que la imagen cubra todo el área del contenedor, recortando los bordes si es necesario para mantener las proporciones. */
+}
 
-    /* FIN */
+/* FIN */
 
-    /* seccion Hero */
-    
-    .intro-img{
-        display: flex;
-    }
+/* seccion Hero */
 
-    @media (max-width: 768px) {
-        .intro-img {
-            display: none; /* Oculta la imagen en dispositivos móviles */
-        }
-    }
-    /* FIN */
+.intro-img {
+    display: flex;
+}
 
-    /* Seccion - app-movil - app-profesional */
-    .seccion-1-img{
-        display: flex; 
+@media (max-width: 768px) {
+    .intro-img {
+        display: none;          /* Oculta la imagen en dispositivos móviles */
     }
-    /* FIN */
+}
 
-    /* <!-- Seccion - Quiénes Somos - Vision, mision, objetivos - Contacto y Soporte --> */
-    .container-seccion3{
-        padding: 60px 40px 60px 40px;
-    }
+/* FIN */
 
-    .container-seccion3 .columna {
-        padding: 20px;
-        border: 2px solid #8080804d;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        transition: all 0.15s ease-in;
-    }
+/* Seccion - app-movil - app-profesional */
+.seccion-1-img {
+    display: flex;
+}
 
-    .container-seccion3 .columna:hover {
-        color: white;
-        background-color: #1b1b32;
-    }
+/* FIN */
 
-    .container-seccion3 i {
-        font-size: 2.5rem;
-        color: #7ade30;
-        background-color: #0a0a23;
-        padding: 8px 19px;
-        border-radius: 50%;
-    }
+/* <!-- Seccion - Quiénes Somos - Vision, mision, objetivos - Contacto y Soporte --> */
+.container-seccion3 {
+    padding: 60px 40px 60px 40px;
+}
 
-    .container-seccion3-titulo {
-        font-size: 25px;
-        font-weight: bold;
-        margin: 10px 0;
-    }
+.container-seccion3 .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.15s ease-in;
+}
 
-    .badges-contenedor{
-        font-size: 20px;
-        font-weight: bold;
-        margin: 10px 0;
-    }
+.container-seccion3 .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
 
-    .badge {
-        margin: 5px;
-    }
-    /* FIN */
+.container-seccion3 i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
 
-    /* <!-- Seccion Beneficios --> */
-    .card-fondo1 {
-        background-image: url('images/imagenInicial/carruselprueba3.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 400px;
-    }
-    /* FIN */
+.container-seccion3-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 
-    /* <!-- Seccion Accesibilidad e Inclusión --> */
-    .card-fondo2 {
-        background-image: url('images/imagenInicial/carruselprueba3.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 400px;
-    }
-    
-    .container-seccion5{
-        padding: 20px 20px 30px 20px;
-    } 
-    /* FIN */  
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
 
-    /* <!-- Seccion - Beneficios - Accesibilidad e Inclusión --> */
-    .card-texto {
-        background-color: #9ebae4;
-        height: 450px;
-        margin: 2%;
-        border-radius: 2.5%;
-    }
+.badge {
+    margin: 5px;
+}
 
-    @media screen and (max-width: 1235px) {
-        .texto-ing-sis p {
-            font-size: 0.93rem;
-        }
-    }
+/* FIN */
 
-    @media screen and (max-width: 1060px) {
-        .texto-ing-sis p {
-            font-size: 0.9rem;
-        }
-    }
+/* <!-- Seccion Beneficios --> */
+.card-fondo1 {
+    background-image: url('images/imagenInicial/carruselprueba3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
 
-    @media screen and (max-width: 1235px) {
-        .texto-ing-sis p {
-            font-size: 0.93rem;
-        }
-    }
+/* FIN */
 
-    @media screen and (max-width: 1060px) {
-        .texto-ing-sis p {
-            font-size: 0.9rem;
-        }
-    }
+/* <!-- Seccion Accesibilidad e Inclusión --> */
+.card-fondo2 {
+    background-image: url('images/imagenInicial/carruselprueba3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
 
-    @media screen and (max-width: 396px) {
-        .texto-ing-sis p {
-            font-size: 0.82rem;
-        }
-    }
+.container-seccion5 {
+    padding: 20px 20px 30px 20px;
+}
 
-    @media screen and (max-width: 355px) {
-        .second-text-sis {
-          display: none;
-        }
+/* FIN */
+
+/* <!-- Seccion - Beneficios - Accesibilidad e Inclusión --> */
+.card-texto {
+    background-color: #9ebae4;
+    height: 450px;
+    margin: 2%;
+    border-radius: 2.5%;
+}
+
+@media screen and (max-width: 1235px) {
+    .texto-ing-sis p {
+        font-size: 0.93rem;
     }
-    /* FIN */
+}
+
+@media screen and (max-width: 1060px) {
+    .texto-ing-sis p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .texto-ing-sis p {
+        font-size: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .texto-ing-sis p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .texto-ing-sis p {
+        font-size: 0.82rem;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .second-text-sis {
+        display: none;
+    }
+}
+
+/* FIN */
 
 
 
 /* Media query para dispositivos grandes (a partir de 992px de ancho) */
 @media (min-width: 992px) {
     .card-body {
-        font-size: 1.25rem; /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.5; /* Mejora la legibilidad ajustando el interlineado */
+        font-size: 1.25rem;         /* Ajusta el tamaño del texto para pantallas grandes */
+        line-height: 1.5;           /* Mejora la legibilidad ajustando el interlineado */
     }
 }
 
 @media (min-width: 1222px) {
     .card-body {
-        font-size: 1.5rem; /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+        font-size: 1.5rem;
+        line-height: 1.75;
     }
 }
 
 @media (min-width: 1452px) {
     .card-body {
-        font-size: 1.75rem; /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+        font-size: 1.75rem;
+        line-height: 1.75;
     }
 }
 
 @media (min-width: 1452px) {
     .card-body {
-        font-size: 1.75rem; /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+        font-size: 1.75rem;
+        line-height: 1.75;
     }
 }
 
 @media (min-width: 1682px) {
     .card-body {
-        font-size: 2rem; /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.75; /* Mejora la legibilidad ajustando el interlineado */
+        font-size: 2rem;
+        line-height: 1.75;
     }
 }
-
