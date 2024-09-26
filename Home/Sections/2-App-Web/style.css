@@ -1,0 +1,5 @@
+.imagen{
+    max-height: 300px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    width: 100%; /* Asegura que la imagen ocupe el 100% del ancho */
+}
