@@ -133,38 +133,3 @@
 /* FIN */
 
 
-/* Media query para Cards */
-@media (min-width: 992px) {
-    .card-body {
-        font-size: 1.25rem;         /* Ajusta el tamaño del texto para pantallas grandes */
-        line-height: 1.5;           /* Mejora la legibilidad ajustando el interlineado */
-    }
-}
-
-@media (min-width: 1222px) {
-    .card-body {
-        font-size: 1.5rem;
-        line-height: 1.75;
-    }
-}
-
-@media (min-width: 1452px) {
-    .card-body {
-        font-size: 1.75rem;
-        line-height: 1.75;
-    }
-}
-
-@media (min-width: 1452px) {
-    .card-body {
-        font-size: 1.75rem;
-        line-height: 1.75;
-    }
-}
-
-@media (min-width: 1682px) {
-    .card-body {
-        font-size: 2rem;
-        line-height: 1.75;
-    }
-}

@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+    /* Cuando la pantalla sea más pequeña, incrementar la altura del PDF */
+    embed {
+        min-height: 400px; /* Ajusta este valor para hacerlo más alto en móviles */
+    }
+}
