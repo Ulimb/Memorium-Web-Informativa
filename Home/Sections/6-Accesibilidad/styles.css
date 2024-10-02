@@ -1,0 +1,40 @@
+section {
+    margin-bottom: 50px; /* Más espacio entre las secciones */
+}
+
+img.rounded {
+    width: 100%; /* Imágenes más grandes */
+    height: auto;
+    border-radius: 15px; /* Borde redondeado */
+}
+
+h2 {
+    font-size: 2.5rem; /* Tamaño de texto más grande para títulos */
+    color: #333333; /* Texto más oscuro */
+}
+
+p.lead {
+    font-size: 1.25rem; /* Texto más grande */
+    color: #444444; /* Texto más oscuro */
+}
+
+/* PARTE DE MEMORIA DEL TRABAJO */
+
+h2 {
+    font-size: 2rem; /* Aumentar el tamaño del título */
+    margin-top: 2rem; /* Añadir margen superior para más espacio entre secciones */
+    color: #333; /* Colores más oscuros */
+}
+
+p.lead {
+    font-size: 1.25rem; /* Aumentar el tamaño del texto */
+    color: #444; /* Texto más oscuro */
+    line-height: 1.6; /* Mejorar el espaciado entre líneas */
+}
+
+ul.objectives-list li {
+    font-size: 1.25rem; /* Aumentar tamaño de texto en las listas */
+    margin-bottom: 1rem; /* Más espacio entre elementos de la lista */
+    color: #444; /* Texto más oscuro */
+}
+
