@@ -1,0 +1,135 @@
+/* Inicio */
+
+/* seccion Hero */
+
+.intro-img {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .intro-img {
+        display: none;          /* Oculta la imagen en dispositivos móviles */
+    }
+}
+
+/* FIN */
+
+
+
+/* <!-- Seccion - Quiénes Somos - Vision, mision, objetivos - Contacto y Soporte --> */
+.container-seccion3 {
+    padding: 60px 40px 60px 40px;
+}
+
+.container-seccion3 .columna {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.15s ease-in;
+}
+
+.container-seccion3 .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.container-seccion3 i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.container-seccion3-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+/* FIN */
+
+/* <!-- Seccion Beneficios --> */
+.card-fondo1 {
+    background-image: url('../../images/imagenInicial/carruselprueba3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* FIN */
+
+/* <!-- Seccion Accesibilidad e Inclusión --> */
+.card-fondo2 {
+    background-image: url('../../images/imagenInicial/carruselprueba3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.container-seccion5 {
+    padding: 20px 20px 30px 20px;
+}
+
+/* FIN */
+
+/* <!-- Seccion - Beneficios - Accesibilidad e Inclusión --> */
+.card-texto {
+    /* background-color: #9ebae4; */
+    height: 450px;
+    margin: 2%;
+    border-radius: 2.5%;
+}
+
+@media screen and (max-width: 1235px) {
+    .texto-card p {
+        font-size: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .texto-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1235px) {
+    .texto-card p {
+        font-size: 0.93rem;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .texto-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 396px) {
+    .texto-card p {
+        font-size: 0.82rem;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .second-text-caed {
+        display: none;
+    }
+}
+
+/* FIN */
+
+
